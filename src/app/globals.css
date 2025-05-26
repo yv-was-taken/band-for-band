@@ -120,3 +120,32 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom Solana Wallet Adapter styles */
+.wallet-adapter-button {
+  background-color: #4C44C6 !important;
+  border: none;
+  color: white;
+  font-family: var(--font-geist-sans);
+  border-radius: 9999px !important;
+  font-size: 16px;
+  padding: 0 24px;
+  height: 48px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.wallet-adapter-button:hover {
+  background-color: #3935a0 !important;
+}
+
+.wallet-adapter-button-trigger {
+  background-color: #4C44C6 !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  font-family: var(--font-geist-sans);
+}
