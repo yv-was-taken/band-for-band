@@ -14,11 +14,11 @@ export default function Home() {
       
       <div className="grid grid-rows-[1fr_20px] items-center justify-items-center min-h-[calc(100vh-32px)] sm:min-h-[calc(100vh-64px)] gap-16">
         <main className="flex flex-col gap-[32px] items-center sm:items-start">
-          <h1 className="text-2xl sm:text-3xl font-bold">Band4Band</h1>
-          <h2 className="text-lg text-gray-700 dark:text-gray-300">Wallet token balance comparison website</h2>
+          <h1 className="text-2xl sm:text-3xl font-bold text-white">Band4Band</h1>
+          <h2 className="text-lg text-green-400">Wallet token balance comparison website</h2>
         </main>
         <footer className="flex gap-[24px] flex-wrap items-center justify-center">
-          <p className="text-sm text-gray-500">© 2025 Band4Band - Wallet Token Comparison</p>
+          <p className="text-sm text-green-500/70">© 2025 Band4Band - Wallet Token Comparison</p>
         </footer>
       </div>
     </div>

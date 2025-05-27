@@ -17,7 +17,7 @@ export const WalletConnectButton: FC = () => {
     return (
       <Button
         variant="outline"
-        className="flex items-center gap-2 font-medium"
+        className="flex items-center gap-2 font-medium border-green-500 text-green-400 hover:bg-green-950/50"
         onClick={disconnect}
       >
         {shortenAddress(publicKey.toBase58())}
